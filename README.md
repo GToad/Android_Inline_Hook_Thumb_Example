@@ -1,4 +1,4 @@
-This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in thumb mode.
+This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in thumb mode. So I will only update that repo.
 
 The target APP is `thumb-2-example.apk` and our .so file has already been compiled in `/libs/armeabi-v7a/libInlineThumbHook.so`.
 
