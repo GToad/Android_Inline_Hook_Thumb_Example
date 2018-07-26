@@ -1,3 +1,18 @@
+This is the example of my [Android Inline Hook Project](https://github.com/GToad/Android_Inline_Hook.git) in thumb mode.
+
+The target APP is `thumb-2-example.apk` and our .so file has already been compiled in `/libs/armeabi-v7a/libInlineThumbHook.so`.
+
+In this APP, you should wait for more than 30 seconds and it will show `Enough. You Win!` in the middle of the screen. After the example `libInlineThumbHook.so` is effective, the register R0 will be set to 0x333 (>10) so you will get `Enough. You Win!` immediately.
+
+`notThumbHooked.mp4` shows the APP run in a normal environment.
+
+`ThumbHooked.mp4` shows the APP run in a hooked environment.
+
+The pictures of effect are showed below:
+
+![](https://gtoad.github.io/img/in-post/post-android-native-hook-practice/notThumbHooked.png)
+![](https://gtoad.github.io/img/in-post/post-android-native-hook-practice/ThumbHooked.png)
+
 # Android Inline Hook
 
 This project make an Android .so file that can automatically do some native hook works.
